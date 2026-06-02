@@ -1,4 +1,4 @@
-package com.example.constructor_injection;
+package com.example.util;
 
 public interface Coach {
 

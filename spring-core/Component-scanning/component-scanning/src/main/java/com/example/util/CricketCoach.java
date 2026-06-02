@@ -1,4 +1,4 @@
-package com.example.constructor_injection;
+package com.example.util;
 
 import org.springframework.stereotype.Component;
 
@@ -6,6 +6,6 @@ import org.springframework.stereotype.Component;
 public class CricketCoach implements Coach {
     @Override
     public String getDailyWorkOut() {
-        return "practice fast bowiling for 15 minutes -!!!!!";
+        return "practice fast bowiling for 15 minute!!!!!";
     }
 }
