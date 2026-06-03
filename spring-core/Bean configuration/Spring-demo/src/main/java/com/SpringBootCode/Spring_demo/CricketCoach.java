@@ -15,17 +15,6 @@ public class CricketCoach implements Coach {
         System.out.println("In constructor : "+getClass().getSimpleName());
     }
 
-    // define init method
-
-    @PostConstruct
-    public void myinit(){
-        System.out.println(" In domystartupstuff() :"+getClass().getSimpleName());
-    }
-
-    @PreDestroy
-    public void cleanstuff(){
-        System.out.println(" In domycleanuppstuff() :"+getClass().getSimpleName());
-    }
     @Override
     public String getDailyWorkOut() {
         return "practice slot bowiling for 55 minutes -!!!!!";
